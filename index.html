@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1 class="title">Califica la pelicula de Juego de Gemelas</h1>
+    <img src="https://is4-ssl.mzstatic.com/image/thumb/Video123/v4/37/8a/f2/378af299-e727-17b2-230b-8b6a451af28c/contsched.gnknbjns.lsr/1200x675.jpg"alt="imagenpeli">
+    <p>Descripción: Dos niñas idénticas descubren que son hermanas gemelas separadas al nacer. Tras conocerse en un campamento, planean intercambiar lugares para reunir a sus padres divorciados.</p>
+
+    <form>
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" name="name" placeholder="Escribe tu nombre" required>
+
+        <label for="age">Edad:</label>
+        <input type="number" id="age" name="age" placeholder="Escribe tu edad" required>
+
+        <label for="rating">Calificación (1-5):</label>
+        <select id="rating" name="rating" required>
+            <option value="" disabled selected>Selecciona una opción</option>
+            <option value="1">1 - Muy mala</option>
+            <option value="2">2 - Mala</option>
+            <option value="3">3 - Regular</option>
+            <option value="4">4 - Buena</option>
+            <option value="5">5 - Excelente</option>
+        </select>
+
+        <label for="comments">Comentarios:</label>
+        <textarea id="comments" name="comments" rows="4" placeholder="Escribe tus comentarios"></textarea>
+
+        <button type="submit">Enviar</button>
+    </form>
+   
+  
+    
+</body>
+</html>
